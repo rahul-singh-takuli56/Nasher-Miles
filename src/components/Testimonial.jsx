@@ -5,19 +5,19 @@ import { GrServices } from "react-icons/gr";
 
 const Testimonial = () => {
   return (
-    <div className="bg-gray-100 h-[300px] mt-8">
-      <p className="text-4xl font-semibold text-center pt-10">
+    <div className="bg-gray-100 lg:h-[300px] mt-8">
+      <p className="lg:text-4xl text-2xl font-semibold text-center lg:pt-10 pt-4">
         4 REASONS TO BUY FROM
       </p>
       <p className="underline text-center text-sm py-4">Nasher Miles</p>
 
-      <div className="grid grid-cols-4 gap-10 mx-24 mt-4 ">
+      <div className="grid lg:grid-cols-4 grid-cols-2 lg:gap-10 gap-2 lg:mx-24 lg:mt-4 lg:mb-0 mb-4">
         <div>
           <LiaShippingFastSolid className="text-[50px] mx-auto" />
           <p className="text-center font-semibold text-xl py-2">
             Free Shipping
           </p>
-          <p className="text-center text-sm text-black/70">
+          <p className="text-center lg:text-sm text-xs text-black/70">
             Free shipping for order above ₹500 <br /> across India.
           </p>
         </div>
@@ -26,7 +26,7 @@ const Testimonial = () => {
           <p className="text-center font-semibold text-xl py-2">
             Free Shipping
           </p>
-          <p className="text-center text-sm text-black/70">
+          <p className="text-center lg:text-sm text-xs text-black/70">
             Hassle free 7 days return.{" "}
           </p>
         </div>
@@ -35,7 +35,7 @@ const Testimonial = () => {
           <p className="text-center font-semibold text-xl py-2">
             Free Shipping
           </p>
-          <p className="text-center text-sm text-black/70">
+          <p className="text-center lg:text-sm text-xs text-black/70">
             Our efficient supply chain brings you <br /> value without
             compromising on quality.{" "}
           </p>
@@ -45,7 +45,7 @@ const Testimonial = () => {
           <p className="text-center font-semibold text-xl py-2">
             Free Shipping
           </p>
-          <p className="text-center text-sm text-black/70">
+          <p className="text-center lg:text-sm text-xs text-black/70">
             A customer first service culture is core to <br /> our company
             values.{" "}
           </p>

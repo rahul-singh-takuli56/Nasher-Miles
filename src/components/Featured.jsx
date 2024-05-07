@@ -138,38 +138,40 @@ const Featured = () => {
 
   return (
     <>
-      <p className="text-4xl font-semibold text-center tracking-wide my-4">
+      <p className="lg:text-4xl text-2xl font-semibold text-center tracking-wide lg:my-4 my-2">
         Featured
       </p>
-      <div className="grid grid-cols-3 py-10 mx-[70px] ">
+      <div className="grid lg:grid-cols-3 grid-cols-1 lg:py-10 py-4 lg:mx-[70px] ml-4">
         <div className="">
           <img
             src="https://img.udaan.com/v2/f_auto,q_auto:eco,w_800/u/products/3nr30821z0sgv6rjvvmz.jpg/American-Rider-Hard-Body-Suitcase-and-Trolley-Bag-"
             alt="image"
-            className="h-[570px]  w-full rounded-xl"
+            className="lg:h-[570px] h-[300px]  lg:w-full w-[300px] rounded-xl "
           />
         </div>
 
-        <div className="flex items-center justify-center gap-4 col-span-2 ml-10 h-[550px]">
+        <div className="flex items-center justify-between lg:gap-4 gap-4 col-span-2 lg:ml-10 mr-2 lg:h-[550px] py-10 lg:py-1 ">
           {images.slice(startIndex, endIndex).map((item) => (
             <div key={item.id}>
               <img
                 src={item.url}
                 alt={item.alt}
-                className="h-[490px] w-[400px] border  rounded-lg mt-8 shadow-lg shadow-gray-500 hover:scale-105 duration-700"
+                className="lg:h-[490px] h-[160px] lg:w-[400px] w-[170px] border  rounded-lg lg:mt-8 shadow-lg shadow-gray-500 lg:hover:scale-105 duration-700"
               />
-              <p className="text-3xl">
+              <p className="lg:block lg:text-3xl text-xs">
                 <FaHeart className="-translate-y-[480px] translate-x-[360px] hover:text-red-500 font-bold" />
               </p>
               <div className="flex items-center justify-normal">
-                <p className="items-center text-md font-semibold">
+                <p className="items-center lg:text-md lg:py-0 py-2 text-xs lg:text-[13px] lg:font-semibold">
                   {item.city}
                 </p>
                 <p>⭐⭐⭐</p>
               </div>
-              <div className="flex items-center justify-normal">
-                <p className="font-serif">From - {item.priceRange}</p>
-                <p className="ml-4 bg-red-500 text-white rounded-md p-1">
+              <div className="flex items-center justify-normal text-xs lg:text-[13px]">
+                <p className="text-xs lg:font-serif pr-1 lg:pr-0">
+                  From- {item.priceRange}
+                </p>
+                <p className="lg:ml-4 bg-red-500 text-xs lg:text-[13px] text-white lg:rounded-md rounded-sm lg:px-3 lg:py-2 py-1 ">
                   {item.priceOff} off
                 </p>
               </div>
@@ -180,11 +182,11 @@ const Featured = () => {
       <div className="flex justify-between text-center ">
         <FaChevronCircleLeft
           onClick={handleleft}
-          className=" -translate-y-[420px] translate-x-[540px]  text-[45px]  hover:bg-black hover:scale-110 duration-700 rounded-full hover:text-white"
+          className=" lg:-translate-y-[420px] -translate-y-[250px] lg:translate-x-[540px] translate-x-[15px]  lg:text-[45px] text-[30px]  hover:bg-black hover:scale-110 duration-700 rounded-full hover:text-white"
         />
         <FaChevronCircleRight
           onClick={handleRight}
-          className="-translate-y-[420px] -translate-x-[40px]  text-[45px]  hover:bg-black hover:scale-110 duration-700 transition-all rounded-full hover:text-white"
+          className="lg:-translate-y-[420px] -translate-y-[250px] lg:-translate-x-[50px]  -translate-x-[15px] lg:text-[45px] text-[30px]  hover:bg-black hover:scale-110 duration-700 transition-all rounded-full hover:text-white"
         />
       </div>
     </>

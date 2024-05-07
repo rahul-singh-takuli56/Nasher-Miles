@@ -36,11 +36,11 @@ const Banner = () => {
   return (
     <div className="relative">
       <FaAngleLeft
-        className="absolute left-0 top-[50%] bg-white text-black/70 hover:scale-125 duration-200 hover:bg-slate-110 border border-white rounded-full text-3xl py-1 mx-4"
+        className="absolute -translate-y-5 translate-x-2 left-0 top-[50%] bg-white text-black/70 hover:scale-125 duration-200 hover:bg-slate-110 border border-white rounded-full text-3xl py-1 mx-4"
         onClick={prevSlide}
       />
       <FaAngleRight
-        className="absolute right-0 top-[50%] bg-white text-black/70 hover:scale-125 duration-200 hover:bg-slate-110 border border-white rounded-full text-3xl py-1 mx-4"
+        className="absolute -translate-y-5 -translate-x-2 right-0 top-[50%] bg-white text-black/70 hover:scale-125 duration-200 hover:bg-slate-110 border border-white rounded-full text-3xl py-1 mx-4"
         onClick={nextSlide}
       />
 
@@ -49,7 +49,7 @@ const Banner = () => {
           key={index}
           src={image}
           alt={`image${index}`}
-          className={`mx-auto w-[1500px] h-[650px]  ${
+          className={`mx-auto lg:w-[1500px] w-[700px] lg:h-[650px] h-[170px] px-1 lg:px-0 ${
             index === currentIndex ? "block" : "hidden"
           }`}
         />

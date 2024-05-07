@@ -86,32 +86,34 @@ const ShopByColor = () => {
   const endIndex = Math.min(startIndex + 7, images.length);
 
   return (
-    <div className="ml-14 ">
-      <p className="text-3xl font-semibold text-center my-14 ">
+    <div className="lg:ml-14 ml-1 ">
+      <p className="lg:text-3xl text-xl font-semibold text-center lg:my-14 mt-4 ">
         Shop By Colour
       </p>
-      <div className="flex justify-between text-center ">
+      <div className="flex justify-between text-center">
         <CiCircleChevLeft
           onClick={handleLeft}
-          className=" translate-y-[140px] translate-x-[30px]  text-[50px] bg- text-blakc hover:bg-white hover:scale-110 duration-1000 rounded-full hover:text-black"
+          className="lg:translate-y-[140px] translate-y-[60px] lg:translate-x-[30px]  lg:text-[50px] text-[30px] text-black hover:bg-white lg:hover:scale-110 duration-1000 rounded-full hover:text-black "
         />
         {showIcons && currentIndex !== images.length - 1 && (
           <CiCircleChevRight
             onClick={handleRight}
-            className=" translate-y-[140px] -translate-x-[90px]  text-[50px] bg- text-black hover:bg-white hover:scale-110 duration-1000 transition-all rounded-full hover:text-black"
+            className="lg:translate-y-[140px] translate-y-[60px] lg:-translate-x-[90px]  lg:text-[50px] text-[30px] text-black hover:bg-white lg:hover:scale-110 duration-1000 transition-all rounded-full hover:text-black"
           />
         )}
       </div>
 
-      <div className="flex justify-start items-center ml-16  ">
+      <div className="flex justify-start items-center lg:ml-16  ">
         {images.slice(startIndex, endIndex).map((item) => (
           <div key={item.id}>
             <img
               src={item.url}
               alt={item.alt}
-              className="w-[180px] h-[200px]"
+              className="lg:w-[180px] w-[60px] lg:h-[200px] h-[75px]"
             />
-            <p className="text-xl font-semibold py-2 text-center">{item.alt}</p>
+            <p className="lg:text-xl text-xs lg:font-semibold lg:py-2 pt-1 pb-3 text-center">
+              {item.alt}
+            </p>
           </div>
         ))}
       </div>

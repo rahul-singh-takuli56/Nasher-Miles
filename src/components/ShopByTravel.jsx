@@ -60,17 +60,17 @@ const ShopByTravel = () => {
 
   return (
     <div>
-      <p className="text-center text-3xl font-semibold pt-[80px] pb-10">
+      <p className="text-center lg:text-3xl text-xl font-semibold lg:pt-[80px] pt-[10px] lg:pb-10 pb-4">
         Shop By Travel Type
       </p>
       <div className="flex justify-between text-center ">
         <CiCircleChevLeft
           onClick={handleleft}
-          className=" translate-y-[190px] translate-x-[130px]  text-[50px] bg- text-white hover:bg-white hover:scale-110 duration-1000 rounded-full hover:text-black"
+          className=" lg:translate-y-[190px] translate-y-[60px] lg:translate-x-[90px] lg:text-[50px] text-[34px]  text-black hover:bg-white lg:hover:scale-110 duration-1000 rounded-full hover:text-black"
         />
         <CiCircleChevRight
           onClick={handleRight}
-          className=" translate-y-[190px] -translate-x-[130px]  text-[50px] bg- text-white hover:bg-white hover:scale-110 duration-1000 transition-all rounded-full hover:text-black"
+          className=" lg:translate-y-[190px] translate-y-[60px]  lg:-translate-x-[130px]  lg:text-[50px] text-[30px] lg:text-black text-black hover:bg-white lg:hover:scale-110 duration-1000 transition-all rounded-full hover:text-black"
         />
       </div>
       <div className="flex justify-center text-center">
@@ -79,9 +79,9 @@ const ShopByTravel = () => {
             <img
               src={item.url}
               alt={item.alt}
-              className="h-[300px] w-[300px] mx-3 rounded-lg"
+              className="lg:h-[300px] h-[70px] lg:w-[300px] w-[60px] lg:mx-3 mx-1 rounded-lg"
             />
-            <p className="text-xl font-semibold tracking-wide py-4 ">
+            <p className="lg:text-xl text-xs font-semibold tracking-wide lg:py-4 py-2 ">
               {item.alt}
             </p>
           </div>
