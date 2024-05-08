@@ -158,7 +158,7 @@ const Featured = () => {
                 alt={item.alt}
                 className="lg:h-[490px] h-[160px] lg:w-[400px] w-[170px] border  rounded-lg lg:mt-8 shadow-lg shadow-gray-500 lg:hover:scale-105 duration-700"
               />
-              <p className="lg:block lg:text-3xl text-xs">
+              <p className="hidden lg:block lg:text-3xl text-xs">
                 <FaHeart className="-translate-y-[480px] translate-x-[360px] hover:text-red-500 font-bold" />
               </p>
               <div className="flex items-center justify-normal">
