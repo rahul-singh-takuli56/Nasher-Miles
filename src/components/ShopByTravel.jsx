@@ -66,7 +66,7 @@ const ShopByTravel = () => {
       <div className="flex justify-between text-center ">
         <CiCircleChevLeft
           onClick={handleleft}
-          className=" lg:translate-y-[190px] translate-y-[60px] lg:translate-x-[90px] lg:text-[50px] text-[34px]  text-black hover:bg-white lg:hover:scale-110 duration-1000 rounded-full hover:text-black"
+          className=" lg:translate-y-[190px] translate-y-[60px] lg:translate-x-[120px] lg:text-[50px] text-[34px]  text-black hover:bg-white lg:hover:scale-110 duration-1000 rounded-full hover:text-black"
         />
         <CiCircleChevRight
           onClick={handleRight}

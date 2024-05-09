@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const ShopByCategory = () => {
   const images = [
     {
@@ -40,11 +42,13 @@ const ShopByCategory = () => {
       <div className="grid grid-cols-2 lg:grid-cols-3 gap-2 lg:mx-10 mx-2 ">
         {images.map((item) => (
           <div key={item.id}>
-            <img
-              src={item.url}
-              alt={item.alt}
-              className="w-[200px] lg:w-[380px] lg:h-[450px] h-[190px]  rounded-xl mx-auto  lg:hover:scale-110 duration-1000 transition-all"
-            />
+            <Link to="/productList">
+              <img
+                src={item.url}
+                alt={item.alt}
+                className="w-[200px] lg:w-[380px] lg:h-[450px] h-[190px]  rounded-xl mx-auto  lg:hover:scale-110 duration-1000 transition-all"
+              />
+            </Link>
             <p className="lg:text-xl text-center font-semibold  my-2 lg:my-6 tracking-wide">
               {item.alt}
             </p>

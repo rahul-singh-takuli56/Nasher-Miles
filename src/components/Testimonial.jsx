@@ -23,9 +23,7 @@ const Testimonial = () => {
         </div>
         <div>
           <TbTruckReturn className="text-[50px] mx-auto" />
-          <p className="text-center font-semibold text-xl py-2">
-            Free Shipping
-          </p>
+          <p className="text-center font-semibold text-xl py-2">RETURNS</p>
           <p className="text-center lg:text-sm text-xs text-black/70">
             Hassle free 7 days return.{" "}
           </p>
@@ -33,9 +31,9 @@ const Testimonial = () => {
         <div>
           <RiCustomerServiceLine className="text-[50px] mx-auto" />
           <p className="text-center font-semibold text-xl py-2">
-            Free Shipping
+            ASSURED QUALITY & VALUE
           </p>
-          <p className="text-center lg:text-sm text-xs text-black/70">
+          <p className="text-center lg:text-sm text-xs text-black/70 line-clamp-2">
             Our efficient supply chain brings you <br /> value without
             compromising on quality.{" "}
           </p>
@@ -43,9 +41,9 @@ const Testimonial = () => {
         <div>
           <GrServices className="text-[50px] mx-auto" />
           <p className="text-center font-semibold text-xl py-2">
-            Free Shipping
+            CUSTOMER SERVICE
           </p>
-          <p className="text-center lg:text-sm text-xs text-black/70">
+          <p className="text-center lg:text-sm text-xs text-black/70 line-clamp-2">
             A customer first service culture is core to <br /> our company
             values.{" "}
           </p>
