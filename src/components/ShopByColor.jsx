@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { CiCircleChevLeft } from "react-icons/ci";
 import { CiCircleChevRight } from "react-icons/ci";
+import { Link } from "react-router-dom";
+import data from "../../public/data.json";
 
 const ShopByColor = () => {
   const [currentIndex, setcurrentIndex] = useState(0);
@@ -104,17 +106,17 @@ const ShopByColor = () => {
       </div>
 
       <div className="flex justify-start items-center lg:ml-16  ">
-        {images.slice(startIndex, endIndex).map((item) => (
-          <div key={item.id}>
+        {data.slice(startIndex, endIndex).map((item) => (
+          <Link to={`/productlist/${item.id}`} key={item.id}>
             <img
-              src={item.url}
-              alt={item.alt}
+              src={item.imagebyColor.url}
+              alt={item.imagebyColor.colour}
               className="lg:w-[180px] w-[60px] lg:h-[200px] h-[75px]"
             />
             <p className="lg:text-xl text-xs lg:font-semibold lg:py-2 pt-1 pb-3 text-center">
-              {item.alt}
+              {item.imagebyColor.colour}
             </p>
-          </div>
+          </Link>
         ))}
       </div>
     </div>

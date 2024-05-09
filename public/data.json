@@ -5,15 +5,19 @@
     "price": 109.95,
     "description": "Embark on your adventures with the New York Explorer Luggage Set. Crafted for everyday use and travel, this set features a padded sleeve for laptops up to 15 inches, durable construction, and ample storage space.",
     "category": "Luggage Sets",
-    "image": "https://nashermiles.com/cdn/shop/files/S1_ca27bc84-59b5-4910-8cf4-f544229a00de_2048x2048.jpg?v=1708340720",
+    "image": "https://nashermiles.com/cdn/shop/files/24-28_5183e31d-453a-4520-be0d-b415f7a57446_2048x2048.jpg?v=1704890036",
     "childrenImages": [
-      "https://nashermiles.com/cdn/shop/files/S1_ca27bc84-59b5-4910-8cf4-f544229a00de_2048x2048.jpg?v=1708340720",
-      "https://nashermiles.com/cdn/shop/files/S2_43e3c912-897c-436a-9f61-ae81087c98d3_2048x2048.jpg?v=1708340721",
-      "https://nashermiles.com/cdn/shop/files/S5_7b377bc7-9cd3-44bd-8762-07833152da37_2048x2048.jpg?v=1710738177",
-      "https://nashermiles.com/cdn/shop/files/S4_1c2b1a97-888c-4504-bcfc-2ca9ea8b41c7_2048x2048.jpg?v=1710738177",
-      "https://nashermiles.com/cdn/shop/files/S6_00ff8153-c2db-4c7f-835d-c722bc216765_2048x2048.jpg?v=1710738187",
-      "https://nashermiles.com/cdn/shop/files/Mobile_1_5883f377-f593-4bc4-badb-f7a48b37cc85.jpg?v=1710929203&width=1800"
+      "https://nashermiles.com/cdn/shop/files/24-28_5183e31d-453a-4520-be0d-b415f7a57446_2048x2048.jpg?v=1704890036",
+      "https://nashermiles.com/cdn/shop/files/L-2_5f0e0a8a-3776-4cbc-b981-b8ba161111d3_2048x2048.jpg?v=1704890037",
+      "https://nashermiles.com/cdn/shop/files/L3_203fec24-d4de-48df-bc52-cddc9bcab2f5_2048x2048.jpg?v=1710758477",
+      "https://nashermiles.com/cdn/shop/files/L4_323b3430-ada0-422e-963a-3bc3ee2a0551_2048x2048.jpg?v=1710758477",
+      "https://nashermiles.com/cdn/shop/files/L5_4c0df4b7-ecc7-48ed-8fa8-86890b2c3add_2048x2048.jpg?v=1710758477",
+      "https://nashermiles.com/cdn/shop/files/L6_24d7d058-860a-4bb9-bd21-fec9ccd2a1d2_2048x2048.jpg?v=1710758477"
     ],
+    "imagebyColor": {
+      "url": "https://nashermiles.com/cdn/shop/files/s-1_c44465dd-36b3-4f84-b980-96335b0bc5ac_2048x2048.jpg?v=1704904336",
+      "colour": "Blue"
+    },
     "rating": {
       "rate": 3.9,
       "count": 120
@@ -25,15 +29,19 @@
     "price": 22.3,
     "description": "Navigate the city streets in style with the Amsterdam Urban Commuter Backpack. Featuring a slim-fit design, contrast raglan long sleeves, and multiple compartments for organization, this backpack is perfect for your daily commute.",
     "category": "Backpacks",
-    "image": "https://nashermiles.com/cdn/shop/files/S-1_789a4f36-070d-4094-a724-7511b0823ed6_2048x2048.jpg?v=1704898964",
+    "image": "https://nashermiles.com/cdn/shop/files/s3_20_1_2048x2048.jpg?v=1705308040",
     "childrenImages": [
-      "https://nashermiles.com/cdn/shop/files/S-1_789a4f36-070d-4094-a724-7511b0823ed6_2048x2048.jpg?v=1704898964",
-      "https://nashermiles.com/cdn/shop/files/S-RP_2048x2048.jpg?v=1704898964",
-      "https://nashermiles.com/cdn/shop/files/S-3_dde886e8-0803-4d03-abbe-50420c1b882b_2048x2048.jpg?v=1704898963",
-      "https://nashermiles.com/cdn/shop/files/S4_1c2b1a97-888c-4504-bcfc-2ca9ea8b41c7_2048x2048.jpg?v=1710738177",
-      "https://nashermiles.com/cdn/shop/files/S-4_dfa966bd-c102-4034-85dd-54c7efc1afa8_2048x2048.jpg?v=1704898964",
-      "https://nashermiles.com/cdn/shop/files/S-5_9d197de1-dbc6-4789-897f-a368ff97f6a4_2048x2048.jpg?v=1704898964"
+      "https://nashermiles.com/cdn/shop/files/s3_20_1_2048x2048.jpg?v=1705308040",
+      "https://nashermiles.com/cdn/shop/files/1_ab720e2d-66bd-4d76-90cc-7fa024ba8a78_2048x2048.jpg?v=1705308040",
+      "https://nashermiles.com/cdn/shop/files/2_132612f0-7223-4911-acb3-c4e690fb56b2_2048x2048.jpg?v=1705308040",
+      "https://nashermiles.com/cdn/shop/files/3_ffbe3617-7002-4d54-b1a0-a83f350a2a0a_2048x2048.jpg?v=1705308040",
+      "https://nashermiles.com/cdn/shop/files/4_d1357fdc-0021-4d9b-b679-67700ec3d6ce_2048x2048.jpg?v=1705308040",
+      "https://nashermiles.com/cdn/shop/files/3_ffbe3617-7002-4d54-b1a0-a83f350a2a0a_2048x2048.jpg?v=1705308040"
     ],
+    "imagebyColor": {
+      "url": "https://nashermiles.com/cdn/shop/files/S1_69e104ef-e373-49f1-a300-b694c56dab81_2048x2048.jpg?v=1706613475",
+      "colour": "Violet"
+    },
     "rating": {
       "rate": 4.1,
       "count": 259
@@ -45,15 +53,19 @@
     "price": 55.99,
     "description": "Embark on your next journey with the Tokyo Adventure Soft Side Check-in Suitcase. Built for durability and style, this suitcase features a cyan-green finish, spacious interior, and smooth-rolling wheels for easy maneuverability.",
     "category": "Soft Side",
-    "image": "https://nashermiles.com/cdn/shop/files/s-1_778540a7-cf21-4772-a03f-d3572c987989_2048x2048.jpg?v=1704905218",
+    "image": "https://nashermiles.com/cdn/shop/files/set_203_2048x2048.jpg?v=1704888531",
     "childrenImages": [
-      "https://nashermiles.com/cdn/shop/files/s-1_778540a7-cf21-4772-a03f-d3572c987989_2048x2048.jpg?v=1704905218",
-      "https://nashermiles.com/cdn/shop/files/S2_128f44d2-9c81-4220-aae3-edf0a4e5a88c_2048x2048.jpg?v=1708412121",
-      "https://nashermiles.com/cdn/shop/files/S3_25110b5f-32d1-4fa0-9149-4ac201890803_2048x2048.jpg?v=1708412121",
-      "https://nashermiles.com/cdn/shop/files/S4_87a77747-c4aa-4626-967e-ef524d9ace0d_2048x2048.jpg?v=1708412121",
-      "https://nashermiles.com/cdn/shop/files/S5_1a385a15-1baa-479f-a62c-00db090a1899_2048x2048.jpg?v=1708412122",
-      "https://nashermiles.com/cdn/shop/files/S6_7551d9ff-e7e3-4ac7-ab9b-e3addda93b58_2048x2048.jpg?v=1708412123"
+      "https://nashermiles.com/cdn/shop/files/set_203_2048x2048.jpg?v=1704888531",
+      "https://nashermiles.com/cdn/shop/files/L-3_d8faadaa-9681-4530-8008-bc41ccc6bee9_2048x2048.jpg?v=1704888538",
+      "https://nashermiles.com/cdn/shop/files/L-2_a49feab4-a67c-4586-8ff6-782d2192686c_2048x2048.jpg?v=1704888544",
+      "https://nashermiles.com/cdn/shop/files/L-3_bb13320f-225b-4496-b0fc-7294ce612742_2048x2048.jpg?v=1704888549",
+      "https://nashermiles.com/cdn/shop/files/L-5_401c694c-8e20-4261-9543-aae44ee9f6f9_2048x2048.jpg?v=1704888556",
+      "https://nashermiles.com/cdn/shop/files/L-6_28d33fb9-c6ad-4898-8d3b-4cf2c3854237_2048x2048.jpg?v=1704888562"
     ],
+    "imagebyColor": {
+      "url": "https://nashermiles.com/cdn/shop/files/L-1_719c2a18-af9f-418b-9d85-7709813390d4_2048x2048.jpg?v=1704901809",
+      "colour": "Dark-Navy"
+    },
     "rating": {
       "rate": 4.7,
       "count": 500
@@ -65,15 +77,19 @@
     "price": 15.99,
     "description": "Stay organized and professional on your business trips with the London Executive Briefcase. With its sleek design, ample storage pockets, and durable construction, this briefcase is a must-have for any business traveler.",
     "category": "Backpacks",
-    "image": "https://nashermiles.com/cdn/shop/files/S1_bfe12b90-9258-4e2e-8446-e3c4e7550f12_2048x2048.jpg?v=1709806787",
+    "image": "https://nashermiles.com/cdn/shop/files/set3_5103e26f-338a-4113-8094-6ef9114ab47b_2048x2048.jpg?v=1710219005",
     "childrenImages": [
-      "https://nashermiles.com/cdn/shop/files/S1_bfe12b90-9258-4e2e-8446-e3c4e7550f12_2048x2048.jpg?v=1709806787",
-      "https://nashermiles.com/cdn/shop/files/S2_20109109-8dfb-46ac-9503-4b4b242e1cda_2048x2048.jpg?v=1709806787",
-      "https://nashermiles.com/cdn/shop/files/S3_502f0da0-39ac-4c73-8507-bef4a97126bd_2048x2048.jpg?v=1710749912",
-      "https://nashermiles.com/cdn/shop/files/S4_64885168-c637-4ac9-aa8a-71634c5ae0cb_2048x2048.jpg?v=1710749912",
-      "https://nashermiles.com/cdn/shop/files/S4_64885168-c637-4ac9-aa8a-71634c5ae0cb_2048x2048.jpg?v=1710749912",
-      "https://nashermiles.com/cdn/shop/files/S6_dd42bce8-7dcd-4f1e-883d-7572cd6e7894_2048x2048.jpg?v=1710749912"
+      "https://nashermiles.com/cdn/shop/files/set3_5103e26f-338a-4113-8094-6ef9114ab47b_2048x2048.jpg?v=1710219005",
+      "https://nashermiles.com/cdn/shop/files/LM2_2ee51eff-27d0-4b8a-99dd-70c18972c8ed_2048x2048.jpg?v=1710219005",
+      "https://nashermiles.com/cdn/shop/files/1_12bea190-d5df-4e55-9522-a1c349d97481_2048x2048.jpg?v=1710219005",
+      "https://nashermiles.com/cdn/shop/files/2_20_2_5d31b3ad-40c0-4783-a823-9a619f315a49_2048x2048.jpg?v=1710219005",
+      "https://nashermiles.com/cdn/shop/files/3_20_1_56af8897-7188-4335-8741-db928634fc26_2048x2048.jpg?v=1710219005",
+      "https://nashermiles.com/cdn/shop/files/4_63c5608e-ba0e-4d4f-ae77-961c4dbf72aa_2048x2048.jpg?v=1710219005"
     ],
+    "imagebyColor": {
+      "url": "https://nashermiles.com/cdn/shop/files/L-1_fb1dac7f-802f-4c1d-8c50-4748381a569d_2048x2048.jpg?v=1704900951",
+      "colour": "Pink"
+    },
     "rating": {
       "rate": 2.1,
       "count": 430
@@ -94,6 +110,10 @@
       "https://nashermiles.com/cdn/shop/files/M5_188485b5-7e32-4d9d-b383-cc7bf56e1006_2048x2048.jpg?v=1709905397",
       "https://nashermiles.com/cdn/shop/files/S6_5175c555-80f1-47f8-ad11-dc0a0b4261eb_2048x2048.jpg?v=1709905397"
     ],
+    "imagebyColor": {
+      "url": "https://nashermiles.com/cdn/shop/files/L-1_4459346b-916a-4c41-ab10-1fd3174f769a_2048x2048.jpg?v=1704899054",
+      "colour": "Yellow"
+    },
     "rating": {
       "rate": 4.6,
       "count": 400
@@ -114,6 +134,10 @@
       "https://nashermiles.com/cdn/shop/files/L5_9ea2fe6d-fe97-4921-a3a9-39f2d707f386_2048x2048.jpg?v=1708340627",
       "https://nashermiles.com/cdn/shop/files/L-6_6e3b65d0-5ca8-4ef7-a99b-bf1c9f704f73_2048x2048.jpg?v=1708340627"
     ],
+    "imagebyColor": {
+      "url": "https://nashermiles.com/cdn/shop/files/L1_b2620d43-e38b-47dd-8645-6ae750696208_2048x2048.jpg?v=1712559294",
+      "colour": "Yellow-Navy"
+    },
     "rating": {
       "rate": 3.9,
       "count": 70
@@ -134,6 +158,10 @@
       "https://nashermiles.com/cdn/shop/files/4_4168732d-cea5-4349-b9e9-8e241cdc44e8_2048x2048.jpg?v=1705381236",
       "https://nashermiles.com/cdn/shop/files/5_605a3874-51f4-4cbc-872a-ffc54568ff7b_2048x2048.jpg?v=1705381236"
     ],
+    "imagebyColor": {
+      "url": "https://nashermiles.com/cdn/shop/files/L1_f8df4bf6-7d06-45eb-8523-dbc7d203a91e_2048x2048.jpg?v=1704907755",
+      "colour": "Blue-gray"
+    },
     "rating": {
       "rate": 3,
       "count": 400
@@ -154,6 +182,10 @@
       "https://nashermiles.com/cdn/shop/files/4_a7ca38b9-0b3b-4e15-9798-75c21c6a5949_2048x2048.jpg?v=1705380943",
       "https://nashermiles.com/cdn/shop/files/5_7ac6e687-ac09-4d1c-a9ad-e97d40d7ec9e_2048x2048.jpg?v=1705380943"
     ],
+    "imagebyColor": {
+      "url": "https://nashermiles.com/cdn/shop/files/28_bd875728-8432-48b2-b908-c551cba38332_2048x2048.jpg?v=1704906769",
+      "colour": "Maroon-Brown"
+    },
     "rating": {
       "rate": 1.9,
       "count": 100
@@ -174,6 +206,10 @@
       "https://nashermiles.com/cdn/shop/files/4_11266dfb-64f3-4696-ad2c-c9abeec7515e_2048x2048.jpg?v=1705309570",
       "https://nashermiles.com/cdn/shop/files/5_3f518f64-c8ec-4ef8-b56a-20515c212317_2048x2048.jpg?v=1705309570"
     ],
+    "imagebyColor": {
+      "url": "https://nashermiles.com/cdn/shop/files/L1_975ed58f-10f3-478f-9180-12d3f4d51416_2048x2048.jpg?v=1710222045",
+      "colour": "Black"
+    },
     "rating": {
       "rate": 3.3,
       "count": 203
@@ -194,6 +230,10 @@
       "https://nashermiles.com/cdn/shop/files/M5_2fb07488-5389-444f-8278-bbf4f7faf5d5_2048x2048.jpg?v=1710922498",
       "https://nashermiles.com/cdn/shop/files/4_4cb8666f-b338-44ac-a89c-9d92667f1de8_2048x2048.jpg?v=1710922498"
     ],
+    "imagebyColor": {
+      "url": "https://nashermiles.com/cdn/shop/files/28_5db522e4-6e6c-45c3-bd52-bd9f6bb69eba_2048x2048.jpg?v=1704908002",
+      "colour": "Orange-Dark-Grey"
+    },
     "rating": {
       "rate": 2.9,
       "count": 470
@@ -205,7 +245,19 @@
     "price": 109,
     "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
     "category": "SoftSide",
-    "image": "https://assets.ajio.com/medias/sys_master/root/20230618/f3MJ/648efd8542f9e729d74a8e7f/nasher-miles-green-trolley-trolley-bag-with-number-lock.jpg",
+    "image": "https://nashermiles.com/cdn/shop/files/Set3_3ce6c039-7f7e-42ec-8cbf-cb75d3248106_2048x2048.jpg?v=1710223897",
+    "childrenImages": [
+      "https://nashermiles.com/cdn/shop/files/Set3_3ce6c039-7f7e-42ec-8cbf-cb75d3248106_2048x2048.jpg?v=1710223897",
+      "https://nashermiles.com/cdn/shop/files/2_f5899a99-c97e-418b-95e9-439375a77066_2048x2048.jpg?v=1710223897",
+      "https://nashermiles.com/cdn/shop/files/3_ca3de46d-f68c-4dc2-93bf-167096187a08_2048x2048.jpg?v=1710223897",
+      "https://nashermiles.com/cdn/shop/files/4_6712a4e3-62fe-4e51-a876-f0284b0895e1_2048x2048.jpg?v=1710223897",
+      "https://nashermiles.com/cdn/shop/files/Zzovlg-PwwFya-28-2_261011b7-8d4d-436e-9648-c6266ffd0329_2048x2048.jpg?v=1710223897",
+      "https://nashermiles.com/cdn/shop/files/3_ca3de46d-f68c-4dc2-93bf-167096187a08_2048x2048.jpg?v=1710223897"
+    ],
+    "imagebyColor": {
+      "url": "https://nashermiles.com/cdn/shop/files/L1_5fe846f0-b101-4f3b-b62e-5c8d5d6974ba_2048x2048.jpg?v=1710223605",
+      "colour": "Green"
+    },
     "rating": {
       "rate": 4.8,
       "count": 319
@@ -217,7 +269,19 @@
     "price": 114,
     "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
     "category": "SoftSide",
-    "image": "https://images-static.nykaa.com/media/catalog/product/b/3/b320b94TEAKW00005025_2.jpg?tr=w-500",
+    "image": "https://nashermiles.com/cdn/shop/files/Set3_1eb6c9c6-e88a-4ce4-a529-b837f3222079_2048x2048.jpg?v=1710321888",
+    "childrenImages": [
+      "https://nashermiles.com/cdn/shop/files/Set3_1eb6c9c6-e88a-4ce4-a529-b837f3222079_2048x2048.jpg?v=1710321888",
+      "https://nashermiles.com/cdn/shop/files/ML2_e8c5ce8c-ad0e-4e3a-b4a1-cded398f38fe_2048x2048.jpg?v=1710321888",
+      "https://nashermiles.com/cdn/shop/files/3_bbfcebfc-806f-483e-a6e5-5311dca26b75_2048x2048.jpg?v=1710394592",
+      "https://nashermiles.com/cdn/shop/files/4_673b9aa5-5c18-44a6-b6e7-194e97f2d830_2048x2048.jpg?v=1710394592",
+      "https://nashermiles.com/cdn/shop/files/5_dd9aafe2-dfab-4d2b-94af-06f401d80d4f_2048x2048.jpg?v=1710394592",
+      "https://nashermiles.com/cdn/shop/files/6_8de89d8d-7f9e-4413-a69f-d7f85837c9c0_2048x2048.jpg?v=1710394592"
+    ],
+    "imagebyColor": {
+      "url": "https://nashermiles.com/cdn/shop/files/31ct75ngZQL._SY300_SX300_2048x2048.jpg?v=1710305639",
+      "colour": "Light-Green"
+    },
     "rating": {
       "rate": 4.8,
       "count": 400
@@ -229,7 +293,19 @@
     "price": 599,
     "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
     "category": "SoftSide",
-    "image": "https://5.imimg.com/data5/SELLER/Default/2023/4/299792215/OR/XK/KE/2918391/24-inch-trolley-bag.jpg",
+    "image": "https://nashermiles.com/cdn/shop/files/Set_2048x2048.jpg?v=1704289601",
+    "childrenImages": [
+      "https://nashermiles.com/cdn/shop/files/Set_2048x2048.jpg?v=1704289601",
+      "https://nashermiles.com/cdn/shop/files/L-2_bf42accb-5f07-47f7-b414-a4b0f240a345_2048x2048.jpg?v=1704289601",
+      "https://nashermiles.com/cdn/shop/files/Set-2_2048x2048.jpg?v=1704289600",
+      "https://nashermiles.com/cdn/shop/files/L-4_9e5cadd9-77e4-4b89-9798-9031eedf5803_2048x2048.jpg?v=1704289601",
+      "https://nashermiles.com/cdn/shop/files/L-5_0e149585-ee14-411a-9700-a47b22323932_2048x2048.jpg?v=1704289601",
+      "https://nashermiles.com/cdn/shop/files/L-6_4146b59f-2bc8-4c0b-b687-c1cf4a8e802f_2048x2048.jpg?v=1704289600"
+    ],
+    "imagebyColor": {
+      "url": "https://nashermiles.com/cdn/shop/files/L-1_7132a5ee-b517-419b-a454-4fe0064b8f38_2048x2048.jpg?v=1704901223",
+      "colour": "White"
+    },
     "rating": {
       "rate": 2.9,
       "count": 250
@@ -241,7 +317,19 @@
     "price": 999.99,
     "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
     "category": "SoftSide",
-    "image": "https://m.media-amazon.com/images/I/51Nf4txi-rL._AC_SR175,263_QL70_.jpg",
+    "image": "https://nashermiles.com/cdn/shop/files/SET_203_db63d097-b687-4ead-a2ea-8c1c74761460_2048x2048.jpg?v=1704891146",
+    "childrenImages": [
+      "https://nashermiles.com/cdn/shop/files/SET_203_db63d097-b687-4ead-a2ea-8c1c74761460_2048x2048.jpg?v=1704891146",
+      "https://nashermiles.com/cdn/shop/files/L2_c65dbed7-dc54-49a2-b4d6-6da9ed729498_2048x2048.jpg?v=1704891140",
+      "https://nashermiles.com/cdn/shop/files/L4_21eb716c-ddbc-4ce1-aa9f-505ea7d5a309_2048x2048.jpg?v=1704891139",
+      "https://nashermiles.com/cdn/shop/files/L5_2dfbdbd0-f855-4983-9fe2-b0af1fc67f89_2048x2048.jpg?v=1704891139",
+      "https://nashermiles.com/cdn/shop/files/L6_23c7a807-7090-488d-bd05-0256bc1f8a9b_2048x2048.jpg?v=1704891139",
+      "https://nashermiles.com/cdn/shop/files/L7_12559e7e-938a-45cf-80a4-704d7dbdfcc6_2048x2048.jpg?v=1704891139"
+    ],
+    "imagebyColor": {
+      "url": "https://www.jiomart.com/images/product/original/rvgugdzlim/nasher-miles-pink-polypropylene-bruges-hard-sided-trolley-bag-1-pc-65cm-product-images-orvgugdzlim-p590988639-0-202201061830.jpg?im=Resize=(420,420)",
+      "colour": "Peach"
+    },
     "rating": {
       "rate": 2.2,
       "count": 140
@@ -253,7 +341,19 @@
     "price": 56.99,
     "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
     "category": "Kids",
-    "image": "https://safaribags.com/cdn/shop/files/3_16e1bb78-baa2-476d-8389-a30bb70c3e20_1500x.jpg?v=1701864901",
+    "image": "https://nashermiles.com/cdn/shop/files/2024_6cc0e97a-819a-4e2d-a8cf-81456e53b70e_2048x2048.jpg?v=1711432972",
+    "childrenImages": [
+      "https://nashermiles.com/cdn/shop/files/2024_6cc0e97a-819a-4e2d-a8cf-81456e53b70e_2048x2048.jpg?v=1711432972",
+      "https://nashermiles.com/cdn/shop/files/1_5be71a1f-e295-4829-9e9a-5703fe805caf_2048x2048.jpg?v=1711432972",
+      "https://nashermiles.com/cdn/shop/files/2_569eed03-f57c-4b19-a6b9-48823f40396d_2048x2048.jpg?v=1711432972",
+      "https://nashermiles.com/cdn/shop/files/3_32c39c39-f9bc-4a55-9d3c-c6b26248360c_2048x2048.jpg?v=1711432972",
+      "https://nashermiles.com/cdn/shop/files/4_1dd6fc99-1a0c-4994-b5c2-865a067cba54_2048x2048.jpg?v=1711432972",
+      "https://nashermiles.com/cdn/shop/files/5_0ad9dff8-9b5e-42c7-ae48-c6978bdf6a20_2048x2048.jpg?v=1711432972"
+    ],
+    "imagebyColor": {
+      "url": "https://www.jiomart.com/images/product/original/rvgugdzlim/nasher-miles-pink-polypropylene-bruges-hard-sided-trolley-bag-1-pc-65cm-product-images-orvgugdzlim-p590988639-0-202201061830.jpg?im=Resize=(420,420)",
+      "colour": "Peach"
+    },
     "rating": {
       "rate": 2.6,
       "count": 235
@@ -265,7 +365,19 @@
     "price": 29.95,
     "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
     "category": "Backpacks",
-    "image": "https://assets.ajio.com/medias/sys_master/root/20231025/PbKz/653934a2afa4cf41f5607261/-473Wx593H-4926494300-multi-MODEL.jpg",
+    "image": "https://nashermiles.com/cdn/shop/files/2024_3c48a48f-ca6a-4371-a74a-255a8659f855_2048x2048.jpg?v=1711619458",
+    "childrenImages": [
+      "https://nashermiles.com/cdn/shop/files/2024_3c48a48f-ca6a-4371-a74a-255a8659f855_2048x2048.jpg?v=1711619458",
+      "https://nashermiles.com/cdn/shop/files/LM2_3ca127f1-0aec-4e2d-bd10-0aec93d39c07_2048x2048.jpg?v=1711619458",
+      "https://nashermiles.com/cdn/shop/files/LM3_8380abb7-a06e-4417-8f4a-63b7026bba3b_2048x2048.jpg?v=1711619459",
+      "https://nashermiles.com/cdn/shop/files/LM4_6cec89da-2d1f-4414-a998-c60b548f8083_2048x2048.jpg?v=1711619459",
+      "https://nashermiles.com/cdn/shop/files/LM5_c364edd1-e554-44b1-b6f6-b4cab026e2b9_2048x2048.jpg?v=1711619458",
+      "https://nashermiles.com/cdn/shop/files/LM5_c364edd1-e554-44b1-b6f6-b4cab026e2b9_2048x2048.jpg?v=1711619458"
+    ],
+    "imagebyColor": {
+      "url": "https://www.jiomart.com/images/product/original/rvgugdzlim/nasher-miles-pink-polypropylene-bruges-hard-sided-trolley-bag-1-pc-65cm-product-images-orvgugdzlim-p590988639-0-202201061830.jpg?im=Resize=(420,420)",
+      "colour": "Peach"
+    },
     "rating": {
       "rate": 2.9,
       "count": 340
@@ -277,7 +389,19 @@
     "price": 39.99,
     "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
     "category": "Business",
-    "image": "https://assets.ajio.com/medias/sys_master/root/20231025/HbQb/653928c6afa4cf41f56036a6/-473Wx593H-4926494290-multi-MODEL.jpg",
+    "image": "https://nashermiles.com/cdn/shop/files/set3_5103e26f-338a-4113-8094-6ef9114ab47b_2048x2048.jpg?v=1710219005",
+    "childrenImages": [
+      "https://nashermiles.com/cdn/shop/files/set3_5103e26f-338a-4113-8094-6ef9114ab47b_2048x2048.jpg?v=1710219005",
+      "https://nashermiles.com/cdn/shop/files/LM2_2ee51eff-27d0-4b8a-99dd-70c18972c8ed_2048x2048.jpg?v=1710219005",
+      "https://nashermiles.com/cdn/shop/files/1_12bea190-d5df-4e55-9522-a1c349d97481_2048x2048.jpg?v=1710219005",
+      "https://nashermiles.com/cdn/shop/files/2_20_2_5d31b3ad-40c0-4783-a823-9a619f315a49_2048x2048.jpg?v=1710219005",
+      "https://nashermiles.com/cdn/shop/files/3_20_1_56af8897-7188-4335-8741-db928634fc26_2048x2048.jpg?v=1710219005",
+      "https://nashermiles.com/cdn/shop/files/4_63c5608e-ba0e-4d4f-ae77-961c4dbf72aa_2048x2048.jpg?v=1710219005"
+    ],
+    "imagebyColor": {
+      "url": "https://www.jiomart.com/images/product/original/rvgugdzlim/nasher-miles-pink-polypropylene-bruges-hard-sided-trolley-bag-1-pc-65cm-product-images-orvgugdzlim-p590988639-0-202201061830.jpg?im=Resize=(420,420)",
+      "colour": "Peach"
+    },
     "rating": {
       "rate": 3.8,
       "count": 679
@@ -289,7 +413,19 @@
     "price": 9.85,
     "description": "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
     "category": "Kids",
-    "image": "https://assets.ajio.com/medias/sys_master/root/20231025/PbKz/653934a2afa4cf41f5607261/-473Wx593H-4926494300-multi-MODEL.jpg",
+    "image": "https://nashermiles.com/cdn/shop/files/24-28_44c614e0-ff0b-4386-a87c-28b0a50da533_2048x2048.jpg?v=1706614720",
+    "childrenImages": [
+      "https://nashermiles.com/cdn/shop/files/24-28_44c614e0-ff0b-4386-a87c-28b0a50da533_2048x2048.jpg?v=1706614720",
+      "https://nashermiles.com/cdn/shop/files/L2_1bfe7a3d-48dc-47ef-a844-da48acf2dd5c_2048x2048.jpg?v=1706614720",
+      "https://nashermiles.com/cdn/shop/files/L3_983cf38c-3ab9-4eb8-bbf8-c026aa27c627_2048x2048.jpg?v=1706614720",
+      "https://nashermiles.com/cdn/shop/files/L4_5653c954-ab06-4d0a-b253-b5bf3f9c3418_2048x2048.jpg?v=1706614719",
+      "https://nashermiles.com/cdn/shop/files/L5_469bcf14-be98-4b09-ae23-a26d0f3ad3da_2048x2048.jpg?v=1706614719",
+      "https://nashermiles.com/cdn/shop/files/L6_5ea23d8e-b6fa-42de-b50b-2350c0cdf6d2_2048x2048.jpg?v=1706614721"
+    ],
+    "imagebyColor": {
+      "url": "https://www.jiomart.com/images/product/original/rvgugdzlim/nasher-miles-pink-polypropylene-bruges-hard-sided-trolley-bag-1-pc-65cm-product-images-orvgugdzlim-p590988639-0-202201061830.jpg?im=Resize=(420,420)",
+      "colour": "Peach"
+    },
     "rating": {
       "rate": 4.7,
       "count": 130
@@ -301,7 +437,19 @@
     "price": 7.95,
     "description": "100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
     "category": "Kids",
-    "image": "https://assets.ajio.com/medias/sys_master/root/20231025/HbQb/653928c6afa4cf41f56036a6/-473Wx593H-4926494290-multi-MODEL.jpg",
+    "image": "https://nashermiles.com/cdn/shop/files/Set3_1002ff43-0d1d-4ce0-bc92-c8b92ded00d8_2048x2048.jpg?v=1711609140",
+    "childrenImages": [
+      "https://nashermiles.com/cdn/shop/files/Set3_1002ff43-0d1d-4ce0-bc92-c8b92ded00d8_2048x2048.jpg?v=1711609140",
+      "https://nashermiles.com/cdn/shop/files/2_84aa378d-fa37-4318-be48-12286bcd9ac8_2048x2048.jpg?v=1711609140",
+      "https://nashermiles.com/cdn/shop/files/3_4367855e-da7e-44be-a6cd-67984bde2c69_2048x2048.jpg?v=1711609140",
+      "https://nashermiles.com/cdn/shop/files/4_3f776f4d-a638-4257-a17d-56a182787777_2048x2048.jpg?v=1711609140",
+      "https://nashermiles.com/cdn/shop/files/5_e491f9d5-70dd-4fa1-879d-3826e651a490_2048x2048.jpg?v=1711609140",
+      "https://nashermiles.com/cdn/shop/files/6_a28a4fa9-bc06-4893-9f6d-a6d2aaed8562_2048x2048.jpg?v=1711609140"
+    ],
+    "imagebyColor": {
+      "url": "https://www.jiomart.com/images/product/original/rvgugdzlim/nasher-miles-pink-polypropylene-bruges-hard-sided-trolley-bag-1-pc-65cm-product-images-orvgugdzlim-p590988639-0-202201061830.jpg?im=Resize=(420,420)",
+      "colour": "Peach"
+    },
     "rating": {
       "rate": 4.5,
       "count": 146
@@ -313,7 +461,19 @@
     "price": 12.99,
     "description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.",
     "category": "Kids",
-    "image": "https://5.imimg.com/data5/SELLER/Default/2022/1/AU/UA/QA/98576396/safari-swift-plus-set.jpg",
+    "image": "https://nashermiles.com/cdn/shop/files/sets-3_0fcde1f2-a4cc-4ca3-aff0-918399fff6b1_2048x2048.jpg?v=1704903428",
+    "childrenImages": [
+      "https://nashermiles.com/cdn/shop/files/sets-3_0fcde1f2-a4cc-4ca3-aff0-918399fff6b1_2048x2048.jpg?v=1704903428",
+      "https://nashermiles.com/cdn/shop/files/2_d405f3e1-510b-4bd9-926a-0072ad7b75f6_2048x2048.jpg?v=1704903428",
+      "https://nashermiles.com/cdn/shop/files/setss-3_96b7753c-875c-468a-a91f-4a19595a5886_2048x2048.jpg?v=1704903429",
+      "https://nashermiles.com/cdn/shop/files/4_5242fe86-6c78-4b1e-a03c-3a3520898c1c_2048x2048.jpg?v=1704903429",
+      "https://nashermiles.com/cdn/shop/files/5_0b315843-b294-4738-b67e-62158e92f138_2048x2048.jpg?v=1704903428",
+      "https://nashermiles.com/cdn/shop/files/L-6_ff4528e8-6194-4ede-844b-bfa35af89274_2048x2048.jpg?v=1704903428"
+    ],
+    "imagebyColor": {
+      "url": "https://www.jiomart.com/images/product/original/rvgugdzlim/nasher-miles-pink-polypropylene-bruges-hard-sided-trolley-bag-1-pc-65cm-product-images-orvgugdzlim-p590988639-0-202201061830.jpg?im=Resize=(420,420)",
+      "colour": "Peach"
+    },
     "rating": {
       "rate": 3.6,
       "count": 145
@@ -325,7 +485,19 @@
     "price": 10.99,
     "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
     "category": "HardSide",
-    "image": "https://assets.ajio.com/medias/sys_master/root/20230407/DA6s/6430427d711cf97ba7159b43/-473Wx593H-465980493-red-MODEL.jpg",
+    "image": "https://nashermiles.com/cdn/shop/files/24-28_2643ac16-4aca-4c5d-bdb3-dd2f03926262_2048x2048.jpg?v=1708498031",
+    "childrenImages": [
+      "https://nashermiles.com/cdn/shop/files/24-28_2643ac16-4aca-4c5d-bdb3-dd2f03926262_2048x2048.jpg?v=1708498031",
+      "https://nashermiles.com/cdn/shop/files/L2_1a55bf47-f313-4417-9f74-40dd5655e38c_2048x2048.jpg?v=1708498031",
+      "https://nashermiles.com/cdn/shop/files/L3_fede107a-057a-4bec-b6a5-8608aafd59f0_2048x2048.jpg?v=1708498030",
+      "https://nashermiles.com/cdn/shop/files/L4_129ab02b-2bde-4d28-8f4a-adc71a420e5e_2048x2048.jpg?v=1708498030",
+      "https://nashermiles.com/cdn/shop/files/L5_9c4f63ba-2ef5-44f7-85e8-8c4c7b0a3372_2048x2048.jpg?v=1708498030",
+      "https://nashermiles.com/cdn/shop/files/L6_b0fcea9d-e914-4a3b-9db6-f6966c70e9bc_2048x2048.jpg?v=1708498031"
+    ],
+    "imagebyColor": {
+      "url": "https://www.jiomart.com/images/product/original/rvgugdzlim/nasher-miles-pink-polypropylene-bruges-hard-sided-trolley-bag-1-pc-65cm-product-images-orvgugdzlim-p590988639-0-202201061830.jpg?im=Resize=(420,420)",
+      "colour": "Peach"
+    },
     "rating": {
       "rate": 1.9,
       "count": 100

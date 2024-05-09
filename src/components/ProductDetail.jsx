@@ -86,6 +86,9 @@ const ProductDetail = () => {
               placeholder="Enter your zipcode"
               className="bg-gray-200 h-10 py-2 pr-6 pl-1 rounded-sm border border-black placeholder:text-black/70"
             />
+            <span className="border border-black py-2 ml-2 h-10 bg-gray-200 hover:bg-blue-100 px-6 cursor-pointer">
+              Check
+            </span>
           </div>
           <div className="mt-10 py-2 text-black/80 ">
             <p className="font-semibold text-lg pb-2">RETURNS & WARRANTY</p>

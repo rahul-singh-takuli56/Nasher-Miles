@@ -2,6 +2,8 @@ import { useState } from "react";
 import { FaHeart } from "react-icons/fa";
 import { FaChevronCircleLeft } from "react-icons/fa";
 import { FaChevronCircleRight } from "react-icons/fa";
+import data from "../../public/data.json";
+import { Link } from "react-router-dom";
 
 const Featured = () => {
   const [currentIndex, setcurrentIndex] = useState(0);
@@ -144,38 +146,46 @@ const Featured = () => {
       <div className="grid lg:grid-cols-3 grid-cols-1 lg:py-10 py-4 lg:mx-[70px] ml-4">
         <div className="">
           <img
-            src="https://img.udaan.com/v2/f_auto,q_auto:eco,w_800/u/products/3nr30821z0sgv6rjvvmz.jpg/American-Rider-Hard-Body-Suitcase-and-Trolley-Bag-"
+            src="https://nashermiles.com/cdn/shop/files/3_ca3de46d-f68c-4dc2-93bf-167096187a08_2048x2048.jpg?v=1710223897"
             alt="image"
-            className="lg:h-[570px] h-[300px]  lg:w-full w-[300px] rounded-xl "
+            className="lg:h-[547px] h-[300px]  lg:w-[421px] w-[300px] rounded-xl "
           />
+          <p className="text-xl text-white translate-x-[30px] -translate-y-[530px]">
+            8 PRODUCT
+          </p>
+          <Link to={"/productlist"}>
+            <button className="bg-white text-black hover:bg-slate-200 -translate-y-[100px] translate-x-[15px] py-2 px-6   rounded-md font-semibold">
+              View all
+            </button>
+          </Link>
         </div>
 
         <div className="flex items-center justify-between lg:gap-4 gap-4 col-span-2 lg:ml-10 mr-2 lg:h-[550px] py-10 lg:py-1 ">
-          {images.slice(startIndex, endIndex).map((item) => (
-            <div key={item.id}>
+          {data.slice(startIndex, endIndex).map((item) => (
+            <Link to={`/productlist/${item.id}`} key={item.id}>
               <img
-                src={item.url}
-                alt={item.alt}
-                className="lg:h-[490px] h-[160px] lg:w-[400px] w-[170px] border  rounded-lg lg:mt-8 shadow-lg shadow-gray-500 lg:hover:scale-105 duration-700"
+                src={item.image}
+                alt={item.category}
+                className="lg:h-[470px] h-[160px] lg:w-[421px] w-[170px] border  rounded-lg lg:mt-8 shadow-lg shadow-gray-500 lg:hover:scale-105 duration-1000"
               />
               <p className="hidden lg:block lg:text-3xl text-xs">
-                <FaHeart className="-translate-y-[480px] translate-x-[360px] hover:text-red-500 font-bold" />
+                <FaHeart className="-translate-y-[460px] translate-x-[370px] hover:text-red-500 font-bold" />
               </p>
               <div className="flex items-center justify-normal">
-                <p className="items-center lg:text-md lg:py-0 py-2 text-xs lg:text-[13px] lg:font-semibold">
-                  {item.city}
+                <p className="items-center lg:text-xl lg:py-0 py-2 text-xs lg:text-[13px] lg:font-semibold">
+                  {item.category}
                 </p>
                 <p>⭐⭐⭐</p>
               </div>
               <div className="flex items-center justify-normal text-xs lg:text-[13px]">
-                <p className="text-xs lg:font-serif pr-1 lg:pr-0">
-                  From- {item.priceRange}
+                <p className="lg:text-xl text-black/70 text-xs lg:font-serif pr-1 lg:pr-0">
+                  From- Rs {item.price} onwards
                 </p>
                 <p className="lg:ml-4 bg-red-500 text-xs lg:text-[13px] text-white lg:rounded-md rounded-sm lg:px-3 lg:py-2 py-1 ">
-                  {item.priceOff} off
+                  40% off
                 </p>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
