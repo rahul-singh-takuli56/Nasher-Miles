@@ -3,9 +3,13 @@ import Home from "../pages/Home";
 import App from "../App";
 import About from "../components/About";
 import Contact from "../components/Contact";
-import Login from "../components/Login";
 import ProductList from "../components/ProductList";
-import ProductDetail from "../components/ProductDetail";
+import ShopByCategory from "../components/ShopByCategory";
+import ShopByColor from "../components/ShopByColor";
+import ShopByTravel from "../components/ShopByTravel";
+import Featured from "../components/Featured";
+import CartItems from "../components/CartItems";
+import SingleProduct from "../components/SingleProduct";
 
 const router = createBrowserRouter([
   {
@@ -14,13 +18,16 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <Home /> },
       { path: "/productlist", element: <ProductList /> },
-      { path: "/productlist/:productId", element: <ProductDetail /> },
+      { path: "/productlist/:productId", element: <SingleProduct /> },
+      { path: "/shop-by-category", element: <ShopByCategory /> },
+      { path: "/shop-by-colour", element: <ShopByColor /> },
+      { path: "/shop-by-travel-type", element: <ShopByTravel /> },
+      { path: "/featured", element: <Featured /> },
+      { path: "/about-us", element: <About /> },
+      { path: "/contact-us", element: <Contact /> },
+      { path: "/cart-items", element: <CartItems /> },
     ],
   },
-  { path: "/contact", element: <Contact /> },
-  { path: "/about", element: <About /> },
-  { path: "/login", element: <Login /> },
-  { path: "/productlist", element: <ProductList /> },
 ]);
 
 export default router;

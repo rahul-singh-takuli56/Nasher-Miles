@@ -36,18 +36,26 @@ const Navbar = () => {
           </p>
 
           <div className="h-[35px] flex items-center font-serif text-[16px] uppercase justify-center gap-[50px] ml-[200px] -translate-x-[60px]">
-            <p>Contact</p>
-            <p>About</p>
-            <p>Sales</p>
-            <p>Gifting</p>
-            <p>Spring Collection</p>
-            <p>Accessories</p>
+            <Link to="/">Home</Link>
+            <Link to="/shop-by-category"> Category</Link>
+            <Link to="/shop-by-colour"> Colour</Link>
+            <Link to="/shop-by-travel-type"> Travel</Link>
+            <Link to="/featured"> Featured</Link>
+            <Link to="/about-us"> About </Link>
+            <Link to="/contact-us"> Contact </Link>
           </div>
 
           <div className="flex justify-center items-center gap-6 translate-x-[60px] ml-2 mr-4 text-2xl">
-            <CiSearch />
-            <BsCart2 />
-            <VscAccount />
+            <CiSearch className="text-2xl" />
+            <div className="flex ">
+              <Link to="/cart-items">
+                <BsCart2 className="text-4xl" />
+              </Link>
+              <p className=" text-xs font-bold -translate-x-[20px] translate-y-[9px]">
+                5
+              </p>
+            </div>
+            <VscAccount className="text-2xl" />
           </div>
         </div>
       </div>
@@ -87,12 +95,27 @@ const Navbar = () => {
             </div>
 
             <ul className=" space-y-5 font-serif text-2xl uppercase">
-              <li>Contact</li>
-              <li>About</li>
-              <li>Sales</li>
-              <li>Gifting</li>
-              <li>Spring Collection</li>
-              <li>Accessories</li>
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
+                <Link to="/shop-by-category"> Category</Link>
+              </li>
+              <li>
+                <Link to="/shop-by-colour"> Colour</Link>
+              </li>
+              <li>
+                <Link to="/shop-by-travel-type"> Travel</Link>
+              </li>
+              <li>
+                <Link to="/featured"> Featured</Link>
+              </li>
+              <li>
+                <Link to="/about-us"> About </Link>
+              </li>
+              <li>
+                <Link to="/contact-us"> Contact </Link>
+              </li>
             </ul>
             <ul className="space-y-3 pt-4 text-xl">
               <li>Log In</li>

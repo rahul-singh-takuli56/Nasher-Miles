@@ -1,15 +1,38 @@
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import data from "../../public/data.json";
 import { FaCircle } from "react-icons/fa";
 import { FaTruckMoving } from "react-icons/fa";
-import { FaStar } from "react-icons/fa";
-import { FaStarHalf } from "react-icons/fa";
+import { CiSquareMinus } from "react-icons/ci";
+import { CiSquarePlus } from "react-icons/ci";
+import { useContext, useState } from "react";
+import { CartContext } from "../context/Context";
 
-const ProductDetail = () => {
+const SingleProduct = () => {
+  const { setCart } = useContext(CartContext);
+  // console.log(useContext(CartContext));
+  // console.log(cart);
+
+  const [count, setCount] = useState(1);
+  const [cartAdded, setCartAdded] = useState(true);
+
   const { productId } = useParams();
+
+  // this product is the data for single items
   const product = data.find((item) => {
     return item.id == productId;
   });
+
+  const handleDecrement = () => {
+    setCount(count > 1 ? count - 1 : 0);
+  };
+  const handleIncreament = () => {
+    setCount(count + 1);
+  };
+
+  const handleAddtoCart = () => {
+    setCartAdded(!cartAdded);
+    setCart(product);
+  };
 
   return (
     <div className="bg-gray-200">
@@ -68,12 +91,37 @@ const ProductDetail = () => {
               <FaCircle className="text-teal-500 hover:cursor-pointer" />
             </div>
           </div>
-          <div className="flex justify-start items-center gap-24 mt-8">
-            <button className="bg-[#bf9f65] text-xl py-2 px-8 text-white rounded-md">
-              ADD TO CART
-            </button>
-            <button className="bg-[#bf9f65] text-xl py-2 px-8 text-white rounded-md">
-              BUY KNOW
+          <div className="flex justify-start items-center text-4xl my-4">
+            <CiSquareMinus
+              onClick={handleDecrement}
+              className="cursor-pointer"
+            />
+            <p className="text-2xl text-black/70">{count}</p>
+            <CiSquarePlus
+              onClick={handleIncreament}
+              className="cursor-pointer"
+            />
+            <p className="text-lg pl-2 tracking-wide">Quantity</p>
+          </div>
+          <div className="flex justify-start items-center gap-16 mt-8">
+            {cartAdded ? (
+              <button
+                onClick={handleAddtoCart}
+                className="bg-[#bf9f65] text-xl py-2 px-8 w-[190px] text-white rounded-md"
+              >
+                ADD TO CART
+              </button>
+            ) : (
+              <button
+                onClick={handleAddtoCart}
+                className="bg-red-500 text-xl py-2 px-8 w-[190px] text-white rounded-md"
+              >
+                Remove
+              </button>
+            )}
+
+            <button className="bg-[#bf9f65] text-xl py-2 px-8 W-[200px] text-white rounded-md">
+              CHECKOUT
             </button>
           </div>
           <div className="mt-8 flex">
@@ -113,4 +161,4 @@ const ProductDetail = () => {
   );
 };
 
-export default ProductDetail;
+export default SingleProduct;
