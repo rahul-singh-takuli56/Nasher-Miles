@@ -8,7 +8,7 @@ import { useContext, useState } from "react";
 import { CartContext } from "../context/Context";
 
 const SingleProduct = () => {
-  const { setCart } = useContext(CartContext);
+  const { cart, setCart, addToCart } = useContext(CartContext);
   // console.log(useContext(CartContext));
   // console.log(cart);
 
@@ -17,7 +17,6 @@ const SingleProduct = () => {
 
   const { productId } = useParams();
 
-  // this product is the data for single items
   const product = data.find((item) => {
     return item.id == productId;
   });
@@ -30,9 +29,26 @@ const SingleProduct = () => {
   };
 
   const handleAddtoCart = () => {
+    console.log("Adding to cart:", product);
     setCartAdded(!cartAdded);
-    setCart(product);
+    const updatedCart = [...cart];
+    const existingItemIndex = updatedCart.findIndex(
+      (item) => item.id === product.id
+    );
+
+    if (existingItemIndex !== -1) {
+      // If the product already exists in the cart, update its quantity
+      updatedCart[existingItemIndex].quantity += count;
+    } else {
+      // Otherwise, add the product to the cart with the selected quantity
+      updatedCart.push({ ...product, quantity: count });
+    }
+
+    console.log("Updated Cart:", updatedCart);
+    setCart(updatedCart);
   };
+
+  // console.log(cart);
 
   return (
     <div className="bg-gray-200">
