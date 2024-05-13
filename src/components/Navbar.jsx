@@ -52,10 +52,12 @@ const Navbar = () => {
                 <BsCart2 className="text-4xl" />
               </Link>
               <p className=" text-xs font-bold -translate-x-[20px] translate-y-[9px]">
-                5
+                0
               </p>
             </div>
-            <VscAccount className="text-2xl" />
+            <Link to="/login">
+              <VscAccount className="text-2xl" />
+            </Link>
           </div>
         </div>
       </div>

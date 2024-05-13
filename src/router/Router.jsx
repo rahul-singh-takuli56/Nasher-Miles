@@ -10,6 +10,9 @@ import ShopByTravel from "../components/ShopByTravel";
 import Featured from "../components/Featured";
 import CartItems from "../components/CartItems";
 import SingleProduct from "../components/SingleProduct";
+import Login from "../components/Login";
+import SignUp from "../components/SignUp";
+import Error from "../components/ErrorPage";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +31,9 @@ const router = createBrowserRouter([
       { path: "/cart-items", element: <CartItems /> },
     ],
   },
+  { path: "/login", element: <Login /> },
+  { path: "/signup", element: <SignUp /> },
+  { path: "/*", element: <Error /> },
 ]);
 
 export default router;

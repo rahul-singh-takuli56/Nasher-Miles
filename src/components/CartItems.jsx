@@ -69,7 +69,7 @@ const CartItems = () => {
         </div>
       ))}
 
-      <div className="fixed top-[120px] right-10 ml-2 py-4 px-2 w-[500px] bg-white shadow-lg min-h-xl">
+      <div className="sticky translate-x-[955px] -translate-y-[580px] ml-2 py-4 px-2 w-[500px] bg-white shadow-lg min-h-xl">
         <p className="text-2xl font-semibold uppercase text-left pb-4 ">
           Total Amount
         </p>
