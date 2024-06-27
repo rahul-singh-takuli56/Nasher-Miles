@@ -3,6 +3,7 @@
 ## Installation
 ### Nasher Miles is an e-commerce web application that specializes in selling suitcases. It offers a variety of features to enhance the shopping experience, including user authentication, responsive design, an interactive user interface, and product search with various filters.
 
+# Live Project: https://nasher-miles.vercel.app/
 
 1. **Clone the repository**
    ```bash
